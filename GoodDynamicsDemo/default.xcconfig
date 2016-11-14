@@ -1,0 +1,12 @@
+//
+//  default.xcconfig
+//  GoodDynamicsDemo
+//
+//  Created by Alexey Bondarchuk on 11/7/16.
+//  Copyright © 2016 Alexey Bondarchuk. All rights reserved.
+//
+
+FIPS_PACKAGE=$(CURRENT_ARCH).sdk
+LDPLUSPLUS=/Good Technology/Good.platform/FIPS_module/$FIPS_PACKAGE/bin/gd_fipsld
+LD=/Good Technology/Good.platform/FIPS_module/$FIPS_PACKAGE/bin/gd_fipsld
+ENABLE_BITCODE=NO
